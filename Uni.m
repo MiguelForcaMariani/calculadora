@@ -1,5 +1,3 @@
-function Uni(A,B)
-  c = union(A,B);
-  disp("o cojunto gerado resulto em:");
-  disp(c);
+function res = Uni(A,B)
+  res = union(A,B);
 endfunction

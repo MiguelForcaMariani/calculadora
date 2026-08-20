@@ -1,3 +1,3 @@
-function DifAB (A,B)
-  a = setdiff(A,B)
+function res = DifAB (A,B)
+  res = setdiff(A,B);
 endfunction
