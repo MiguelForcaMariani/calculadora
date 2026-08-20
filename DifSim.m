@@ -1,0 +1,2 @@
+function DifSim(A, B)
+
