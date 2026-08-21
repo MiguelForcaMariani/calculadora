@@ -1,3 +1,8 @@
 function res = Uni(A,B)
-  res = union(A,B);
+  C = [];
+  for i = 1:(length(A))
+    C[A(i)];
+    C[B(i)];
+  endfor
+  res = unique(C);
 endfunction

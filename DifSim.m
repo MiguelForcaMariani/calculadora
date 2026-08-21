@@ -1,3 +1,3 @@
 function res = DifSim(A, B)
-  res = union(DifAB(A, B), DifBA(A, B));
+  res = Uni(DifAB(A, B), DifBA(A, B));
 endfunction
