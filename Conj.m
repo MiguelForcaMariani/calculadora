@@ -6,20 +6,22 @@ function [A, B] = Conj(A, B)
   cont = 1;
   do
     fprintf("Digite o %d elemento", cont);
-    a = input();
+    a = input("", "s");
+    a = str2double(a);
     cont++;
-    if (isnan(a))
-      A[a];
+    if isnan(a)
+      A = [A, a];
     endif
-  until (isnan(a));
+  until isnan(a);
   b = 0;
   cont = 1;
   do
     fprintf("Digite o %d elemento", cont);
-    b = input();
+    b = input("", "s");
+    b = str2double(b);
     cont++;
-    if (isnan(b))
-      B[b];
+    if isnan(b)
+      B = [B, b];
     endif
-  until (isnan(b));
+  until isnan(b);
 endfunction

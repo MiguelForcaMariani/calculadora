@@ -3,7 +3,7 @@ function res = Inter(A, B)
   for i = 1:length(A)
     for j = 1:length(B)
        if (A(i) == B(j))
-         C[B(j)];
+         C[C, B(j)];
        endif
     endfor
   endfor

@@ -1,11 +1,9 @@
 function res = DifAB (A,B)
   C = A;
   for i = 1:length(A)
-    for j = 1:length(B)
-       if (A(i) == B(j))
-         C(C == (B(j)) = [];
-       endif
-    endfor
+    if ~any(A(i) == B)
+      C(end+1) = A(i);
+    endif
   endfor
   res = unique(C);
 endfunction
