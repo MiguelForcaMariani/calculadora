@@ -16,34 +16,34 @@ do
           [A, B] = Conj(A, B);
         case 2
           d = Uni(A, B);
-          fprintf("\n|--------resultado--------|");
+          fprintf("\n|--------resultado--------|\n");
           disp(d);
-          fprintf("\n|-------------------------|");
+          fprintf("\n|-------------------------|\n");
         case 3
           d = Inter(A, B);
-          fprintf("\n|--------resultado--------|");
+          fprintf("\n|--------resultado--------|\n");
           disp(d);
-          fprintf("\n|-------------------------|");
+          fprintf("\n|-------------------------|\n");
         case 4
           d = DifAB(A, B);
-          fprintf("\n|--------resultado--------|");
+          fprintf("\n|--------resultado--------|\n");
           disp(d);
-          fprintf("\n|-------------------------|");
+          fprintf("\n|-------------------------|\n");
         case 5
           d = DifBA(A, B);
-          fprintf("\n|--------resultado--------|");
+          fprintf("\n|--------resultado--------|\n");
           disp(d);
-          fprintf("\n|-------------------------|");
+          fprintf("\n|-------------------------|\n");
         case 6
           d = DifSim(A, B);
-          fprintf("\n|--------resultado--------|");
+          fprintf("\n|--------resultado--------|\n");
           disp(d);
-          fprintf("\n|-------------------------|");
+          fprintf("\n|-------------------------|\n");
         case 7
           d = ProdCart(A, B);
-          fprintf("\n|--------resultado--------|");
+          fprintf("\n|--------resultado--------|\n");
           disp(d);
-          fprintf("\n|-------------------------|");
+          fprintf("\n|-------------------------|\n");
         case 0
         otherwise
           fprintf("\nValor invalido, digite novamente\n");
